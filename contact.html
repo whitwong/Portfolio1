@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="us-en">
+	<head>
+		<title>Contact Whitney</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Stylesheets and supplementary links-->
+		<link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Source+Code+Pro|Righteous|Yeseva+One|Ubuntu|Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<!--Script tags for javascript/jquery libraries-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+	</head>
+
+	<body>
+
+		<!-- Navbar -->
+		<nav class="row">
+			<div class="col-md-3 logo"><a href="index.html">W</a></div>
+			<div class="col-md-9 navbar">
+				<ul class="right">
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Contact Main Content -->
+		<main>
+	    <section class="contact-section">
+	      <form id="contact-form" class="z-depth-5">
+	      	<!-- Name -->
+	      	<div class="row">
+		      	<div class="input-field col s8 offset-s2">
+			        <label for="name">Name*</label>
+			        <input type="text" id="name" name="name" class="validate" placeholder="Jane Doe">
+	          </div>
+	        </div>
+	        <!-- Email -->
+	      	<div class="row">
+		      	<div class="input-field col s8 offset-s2">
+		          <input type="email" id="email" name="email" class="validate" placeholder="example@gmail.com">
+		          <label for="email" data-error="Incorrect format">Email*</label>
+	          </div>
+	        </div>
+	        <!-- Message -->
+	      	<div class="row">
+		      	<div class="input-field col s8 offset-s2">
+		          <label for="message">Message*</label>
+		          <textarea id="message" name="message" class="materialize-textarea validate" placeholder="Write something...really!"></textarea>
+		          <p>*Required Field</p>
+		        </div>
+		      </div>
+	        <!-- Submit -->
+	      	<div class="row">
+		      	<div class="input-field col s8 offset-s2">
+			        <button class="btn waves-effect waves-light" id="submit" type="submit" name="action">Submit
+			        	<i class="material-icons right">send</i>
+			        </button>
+		        </div>
+		      </div>
+	      </form>
+	    </section>
+		</main>
+
+		<!-- Footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3 class="grey-text text-lighten-4">Connect with Me</h3>
+            <a class="icon" href="https://github.com/whitwong"><img src="assets/images/github.png"></a>
+            <a class="icon" href="https://www.linkedin.com/in/whitney-wong/"><img src="assets/images/linkedin.png"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2017 Whitney Wong
+        </div>
+      </div>
+    </footer>
+
+		<!-- Local JavaScript -->
+		<script src="assets/javascript/main.js"></script>
+
+	</body>
+</html>
